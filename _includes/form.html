@@ -1,0 +1,26 @@
+<section>
+
+  <h3>Напишите нам</h3>
+
+<form method="POST" action="//formspree.io/{{ site.data.settings.email }}">
+
+  <fieldset class="contact-info-group">
+
+    <label><span>Ваше имя</span>
+    <input type="text" name="name"></label>
+
+    <label><span>Ваш Email</span>
+    <input type="email" name="_replyto"></label>
+
+  </fieldset>
+
+  <label><span>Расскажите о том, какой услугой хотите воспользоваться</span>
+  <textarea name="message" placeholder="Или напишите ваш отзыв!"></textarea></label>
+
+  <fieldset class="submit-wrap">
+    <input type="submit" value="Отправить">
+  </fieldset>
+
+</form>
+
+</section>

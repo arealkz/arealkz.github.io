@@ -1,0 +1,106 @@
+#-------------------------------
+# General Site Settings
+
+title: Areal.kz
+description: +7 (7212) 41-03-52
+email: areal.kz_kaz@mail.ru
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: О нас, url: '#about-me'}
+- {name: Наши предложения, url: '#work'}
+- {name: Клиенты, url: '#clients'}
+- {name: Контакты, url: '#contact'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Образовательные услуги, языковые курсы, бизнес-тренинги'
+  rel-author: 'http://arealkz.com/'
+  rel-publisher: 'http://arealkz.com/'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+blurb: >
+  **Areal.kz** является товариществом с ограниченной ответственностью.
+  **Компания предоставляет**
+  различные виды образовательных услуг от языковых курсов
+  до заполнения пробелов школьной программы и программ по обучению бизнесу.
+  Полный ассортимент услуг:
+
+skills:
+- {name: Курсы английского, value: '10'}
+- {name: Курсы немецкого, value: '10'}
+- {name: Курсы китайского, value: '10'}
+- {name: Помощь по школьным предметам, value: '10'}
+- {name: Подготовительные курсы к ЕНТ и КТА, value: '10'}
+- {name: Консалтинговые услуги, value: '10'}
+- {name: Бизнес-тренинги, value: '10'}
+- {name: Социологические исследования, value: '10'}
+- {name: Вспомогательные образовательные услуги, value: '10'}
+- {name: Заполнение пробелов школьной программы, value: '10'}
+
+#-------------------------------
+# Work Section
+
+projects:
+- {name: Бизнес-тренинги, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: Языковые курсы, folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: Консалтинговые услуги, folder: 'proj-3', file: 'work/proj-3.html'}
+- {name: Помощь выпускникам, folder: 'proj-4', file: 'work/proj-4.html'}
+- {name: Пора учить иностранные языки, folder: 'proj-5', file: 'work/proj-5.html'}
+- {name: Детский центр, folder: 'proj-6', file: 'work/proj-6.html'}
+- {name: Учим уроки с детьми, folder: 'proj-7', file: 'work/proj-7.html'}
+- {name: Прием документов в Российские ВУЗы, folder: 'proj-8', file: 'work/proj-8.html'}
+
+#-------------------------------
+# Clients Section
+
+clients:
+- {name: 'Сергей',
+  title: 'Студент',
+  quote: '<p><strong>Высказывание</strong> клиента</p>',
+  logo: 'logo1.png'}
+- {name: 'Наталья',
+  title: 'Предприниматель',
+  quote: '<p><strong>Высказывание</strong> клиента</p>',
+  logo: 'logo2.png'}
+- {name: 'Иван',
+  title: 'Полиглот',
+  quote: '<p><strong>Высказывание</strong> клиента</p>',
+  logo: 'logo3.png'}
+- {name: 'Айгерим',
+  title: 'Абитуриент',
+  quote: '<p><strong>Высказывание</strong> клиента</p>',
+  logo: 'logo4.png'}
+
+
+#-------------------------------
+# Contact Section
+
+social:
+- {icon: 'google-plus', link: 'https://plus.google.com/share?url=http%3A%2F%2Farealkz.com%2F%3Ftmst%3D1455172043'}
+- {icon: 'facebook', link: 'https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Farealkz.com%2F%3Ftmst%3D1455172043'}
+- {icon: 'twitter', link: 'https://twitter.com/intent/tweet?text=http%3A%2F%2Farealkz.com%2F%3Ftmst%3D1455172043&source=webclient'}
+- {icon: 'linkedin', link: 'https://vk.com/share.php?url=http%3A%2F%2Farealkz.com%2F%3Ftmst%3D1456201428'}
+- {icon: 'github', link: 'https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl=http%3A%2F%2Farealkz.com%2F%3Ftmst%3D1456201428'}
+
+
+# social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'

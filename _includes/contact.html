@@ -1,0 +1,22 @@
+<section class="section-contact">
+
+  <h3 id="contact">Контакты</h3>
+
+
+  <div class="social-links">
+    {% for link in site.data.settings.social %}
+    <a href="{{ link.link }}" target="_blank" class="icon-{{ link.icon }}"></a>
+    {% endfor %}
+  </div>
+
+  <p>+7 (702) 617-24-18</p>
+  <p>+7 (708) 900-92-07</p>
+  <p>Skype: areal.kz</p>
+  <p>Адрес: Казахстан, Карагандинская область, Караганда, Лободы 7</p>
+  <p>График работы: Пн-Пт 9:00 - 18:00; Обед 13:00 - 14:00; Сб, Вс выходные</p>
+
+  <hr class="bar">
+
+  <a class="biglink" href="mailto:{{ site.data.settings.email }}">{{ site.data.settings.email }}</a>
+
+</section>
